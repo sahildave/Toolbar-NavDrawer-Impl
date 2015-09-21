@@ -1,0 +1,23 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="48dp"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:foreground="?android:selectableItemBackground">
+
+    <TextView
+        android:id="@+id/nav_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="72dp"
+        android:textSize="14sp"
+        android:gravity="center_vertical"
+        android:textColor="@color/theme_primary_text"/>
+
+    <ImageView
+        android:id="@+id/nav_item_icon"
+        android:layout_width="@dimen/material_drawer_row_image_size"
+        android:layout_height="@dimen/material_drawer_row_image_size"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_gravity="center_vertical"/>
+</FrameLayout>

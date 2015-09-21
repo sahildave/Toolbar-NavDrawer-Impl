@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Core ToolbarNavDrawer Impl</string>
+    <string name="your_stuff_here">Your Stuff Here!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_drawer_note_add">Add Note</string>
+    <string name="nav_drawer_note_list">Notes List</string>
+</resources>

@@ -1,0 +1,37 @@
+<xyz.sahildave.core.toolbarnavdrawer.ScrimInsetsScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/navigation_drawer_width"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:fillViewport="true"
+    android:id="@+id/navdrawer"
+    android:background="@color/navdrawer_background"
+    android:fitsSystemWindows="true"
+    app:insetForeground="#4000">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+        <include layout="@layout/navigation_drawer_header"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Drawer items -->
+            <LinearLayout
+                android:id="@+id/navdrawer_items_list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</xyz.sahildave.core.toolbarnavdrawer.ScrimInsetsScrollView>
